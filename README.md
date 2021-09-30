@@ -15,7 +15,7 @@ Simple application to search and find repository that you are looking for and ch
   `GradientLoadingBar` - loader
   
 # ScreenShots
-  ![Simulator Screen Shot - iPhone 11 - 2021-09-30 at 14 09 01](https://user-images.githubusercontent.com/35160256/135464929-9d9af781-b085-4ed6-bff5-253e07f9266a.png) ![Simulator Screen Shot - iPhone 11 - 2021-09-30 at 14 09 11](https://user-images.githubusercontent.com/35160256/135465506-a9f99822-1bd3-4c8f-b4c2-a68444d70a16.png)
+  ![Simulator Screen Shot - iPhone 11 - 2021-09-30 at 14 09 01](https://user-images.githubusercontent.com/35160256/135464929-9d9af781-b085-4ed6-bff5-253e07f9266a.png) ![Simulator Screen Shot - iPhone 11 - 2021-09-30 at 14 09 11](https://user-images.githubusercontent.com/35160256/135465506-a9f99822-1bd3-4c8f-b4c2-a68444d70a16.png) ![Simulator Screen Shot - iPhone 11 - 2021-09-30 at 14 09 38](https://user-images.githubusercontent.com/35160256/135465714-5efa3a64-0393-4e08-9816-59ebf096fad5.png)
  
  
   
