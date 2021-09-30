@@ -1,5 +1,5 @@
 # AssignmentTask_App
-Simple application to search and find repository that you are looking for and check repository's details with in the app.
+Simple application to search and find git repositories that you are looking for and check repositories details with in the app.
 
 # Features
   * Show primary language and repository name for each repository
