@@ -7,9 +7,10 @@ Simple application to search and find repository that you are looking for and ch
   * Show number of stars and open issues for each repository
   * When a user tap a repository `WKWebView` is presented to display the repository Github page with in the app
   * Added pull to refresh and paginated and show 20 repositories in a single fetch
-  * It's build on the MVVM architecture
+  * It's build on the MVVM architecture and unit tested
+  * UI build on fully programmatically with AutoLayout
  
-# Pods used
+# Swift used
   `Kingfisher` - image cache 
   
   `GradientLoadingBar` - loader
