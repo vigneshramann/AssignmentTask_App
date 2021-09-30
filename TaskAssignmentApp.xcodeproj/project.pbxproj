@@ -3,18 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		ED8435CD2705E21200377292 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8435CC2705E21200377292 /* AppDelegate.swift */; };
 		ED8435CF2705E21200377292 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8435CE2705E21200377292 /* SceneDelegate.swift */; };
-		ED8435D12705E21200377292 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8435D02705E21200377292 /* ViewController.swift */; };
 		ED8435D42705E21200377292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8435D22705E21200377292 /* Main.storyboard */; };
 		ED8435D62705E21400377292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8435D52705E21400377292 /* Assets.xcassets */; };
 		ED8435D92705E21400377292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8435D72705E21400377292 /* LaunchScreen.storyboard */; };
 		ED8435E42705E21400377292 /* TaskAssignmentAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8435E32705E21400377292 /* TaskAssignmentAppTests.swift */; };
 		ED8435EF2705E21400377292 /* TaskAssignmentAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8435EE2705E21400377292 /* TaskAssignmentAppUITests.swift */; };
+		ED8436012705E3FC00377292 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8436002705E3FC00377292 /* SearchViewModel.swift */; };
+		ED8436092705E40700377292 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8436062705E40700377292 /* SearchViewController.swift */; };
+		ED84360A2705E40700377292 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8436072705E40700377292 /* DetailViewController.swift */; };
+		ED84360B2705E40700377292 /* SearchViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8436082705E40700377292 /* SearchViewCell.swift */; };
+		ED8436112705E40F00377292 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8436102705E40F00377292 /* ItemModel.swift */; };
+		ED8436172705E41500377292 /* TableView+UiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8436162705E41500377292 /* TableView+UiView.swift */; };
+		ED84361D2705E43200377292 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED84361C2705E43200377292 /* Constant.swift */; };
+		ED8436262705E4EA00377292 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = ED8436252705E4EA00377292 /* Kingfisher */; };
+		ED84362C2705E57200377292 /* GradientLoadingBar in Frameworks */ = {isa = PBXBuildFile; productRef = ED84362B2705E57200377292 /* GradientLoadingBar */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +46,6 @@
 		ED8435C92705E21200377292 /* TaskAssignmentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskAssignmentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED8435CC2705E21200377292 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED8435CE2705E21200377292 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ED8435D02705E21200377292 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ED8435D32705E21200377292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED8435D52705E21400377292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED8435D82705E21400377292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		ED8435EA2705E21400377292 /* TaskAssignmentAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskAssignmentAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED8435EE2705E21400377292 /* TaskAssignmentAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAssignmentAppUITests.swift; sourceTree = "<group>"; };
 		ED8435F02705E21400377292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8436002705E3FC00377292 /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		ED8436062705E40700377292 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		ED8436072705E40700377292 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ED8436082705E40700377292 /* SearchViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewCell.swift; sourceTree = "<group>"; };
+		ED8436102705E40F00377292 /* ItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		ED8436162705E41500377292 /* TableView+UiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TableView+UiView.swift"; sourceTree = "<group>"; };
+		ED84361C2705E43200377292 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED8436262705E4EA00377292 /* Kingfisher in Frameworks */,
+				ED84362C2705E57200377292 /* GradientLoadingBar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,11 +117,15 @@
 			children = (
 				ED8435CC2705E21200377292 /* AppDelegate.swift */,
 				ED8435CE2705E21200377292 /* SceneDelegate.swift */,
-				ED8435D02705E21200377292 /* ViewController.swift */,
 				ED8435D22705E21200377292 /* Main.storyboard */,
 				ED8435D52705E21400377292 /* Assets.xcassets */,
 				ED8435D72705E21400377292 /* LaunchScreen.storyboard */,
 				ED8435DA2705E21400377292 /* Info.plist */,
+				ED8435FF2705E3FC00377292 /* ViewModel */,
+				ED8436052705E40700377292 /* View */,
+				ED84360F2705E40F00377292 /* Model */,
+				ED8436152705E41500377292 /* Extension */,
+				ED84361B2705E43200377292 /* Helper */,
 			);
 			path = TaskAssignmentApp;
 			sourceTree = "<group>";
@@ -128,6 +148,48 @@
 			path = TaskAssignmentAppUITests;
 			sourceTree = "<group>";
 		};
+		ED8435FF2705E3FC00377292 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ED8436002705E3FC00377292 /* SearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ED8436052705E40700377292 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED8436062705E40700377292 /* SearchViewController.swift */,
+				ED8436072705E40700377292 /* DetailViewController.swift */,
+				ED8436082705E40700377292 /* SearchViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED84360F2705E40F00377292 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED8436102705E40F00377292 /* ItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED8436152705E41500377292 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ED8436162705E41500377292 /* TableView+UiView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		ED84361B2705E43200377292 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				ED84361C2705E43200377292 /* Constant.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +206,10 @@
 			dependencies = (
 			);
 			name = TaskAssignmentApp;
+			packageProductDependencies = (
+				ED8436252705E4EA00377292 /* Kingfisher */,
+				ED84362B2705E57200377292 /* GradientLoadingBar */,
+			);
 			productName = TaskAssignmentApp;
 			productReference = ED8435C92705E21200377292 /* TaskAssignmentApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +281,10 @@
 				Base,
 			);
 			mainGroup = ED8435C02705E21200377292;
+			packageReferences = (
+				ED8436242705E4EA00377292 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				ED84362A2705E57200377292 /* XCRemoteSwiftPackageReference "GradientLoadingBar" */,
+			);
 			productRefGroup = ED8435CA2705E21200377292 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,8 +328,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED8435D12705E21200377292 /* ViewController.swift in Sources */,
+				ED8436092705E40700377292 /* SearchViewController.swift in Sources */,
+				ED84360B2705E40700377292 /* SearchViewCell.swift in Sources */,
+				ED8436112705E40F00377292 /* ItemModel.swift in Sources */,
+				ED8436172705E41500377292 /* TableView+UiView.swift in Sources */,
 				ED8435CD2705E21200377292 /* AppDelegate.swift in Sources */,
+				ED84360A2705E40700377292 /* DetailViewController.swift in Sources */,
+				ED84361D2705E43200377292 /* Constant.swift in Sources */,
+				ED8436012705E3FC00377292 /* SearchViewModel.swift in Sources */,
 				ED8435CF2705E21200377292 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -587,6 +663,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED8436242705E4EA00377292 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		ED84362A2705E57200377292 /* XCRemoteSwiftPackageReference "GradientLoadingBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fxm90/GradientLoadingBar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED8436252705E4EA00377292 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED8436242705E4EA00377292 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		ED84362B2705E57200377292 /* GradientLoadingBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED84362A2705E57200377292 /* XCRemoteSwiftPackageReference "GradientLoadingBar" */;
+			productName = GradientLoadingBar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ED8435C12705E21200377292 /* Project object */;
 }

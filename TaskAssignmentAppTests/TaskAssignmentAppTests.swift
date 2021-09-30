@@ -2,7 +2,7 @@
 //  TaskAssignmentAppTests.swift
 //  TaskAssignmentAppTests
 //
-//  Created by sangeetha_m20 on 30/09/21.
+//  Created by Vignesh on 30/09/21.
 //
 
 import XCTest
@@ -10,23 +10,41 @@ import XCTest
 
 class TaskAssignmentAppTests: XCTestCase {
 
+    var searchView: SearchViewController?
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+         searchView = SearchViewController()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        searchView = nil
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testMinCharterError() {
+        XCTAssertThrowsError(try searchView?.errorHandling(text: "rep")) { error in
+            XCTAssertEqual(error as? String, MyError.minCharterError(value: minCharterError).associatedValue())
+        }
     }
-
+    
+    func testMaxCharterError() {
+        XCTAssertThrowsError(try searchView?.errorHandling(text: "reprepreprepreprepreprepreprepreprepssssss")) { error in
+            XCTAssertEqual(error as? String, MyError.maxCharterError(value: maxCharterError).associatedValue())
+        }
+    }
+    
+    func testInvalidError() {
+        XCTAssertThrowsError(try searchView?.errorHandling(text: "rep-=")) { error in
+            XCTAssertEqual(error as? String, MyError.invalidTextError(value: invalidTextError).associatedValue())
+        }
+    }
+    
+    func testValidText() {
+        XCTAssertNoThrow(try searchView?.errorHandling(text: "search"))
+    }
+   
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {
-            // Put the code you want to measure the time of here.
         }
     }
 
