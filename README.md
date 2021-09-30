@@ -10,7 +10,7 @@ Simple application to search and find repository that you are looking for and ch
   * It's build on the MVVM architecture and unit tested
   * UI build on fully programmatically with AutoLayout
  
-# Swift used
+# Swift Package Manager
   `Kingfisher` - image cache 
   
   `GradientLoadingBar` - loader
