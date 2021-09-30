@@ -13,6 +13,9 @@ Simple application to search and find repository that you are looking for and ch
   `Kingfisher` - image cache 
   
   `GradientLoadingBar` - loader
+  
+# ScreenShots
+  https://user-images.githubusercontent.com/35160256/135464137-e958c146-f2f9-45a9-955c-81f1c5006b8d.png
  
  
   
